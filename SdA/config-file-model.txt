@@ -1,0 +1,38 @@
+# COMMENTS
+experiment-name:CNT
+dataset-config-file:CNT
+dataset-name-file:CNT
+input-size:CNT
+batch-size:CNT
+# if replications equals to zero, the output is deterministc (seed fixed). Seed random, otherwise
+replications:CNT
+mapclasses:"label-0",...,"label-n"
+autoencoder-in-activation:[sigmoid, tanh, relu, hard-sigmoid, ultra-fast-sigmoid, tanh-lecun, const-tanh-lecun, none]
+autoencoder-reconstruction-activation:[sigmoid, tanh, relu, hard-sigmoid, ultra-fast-sigmoid, tanh-lecun, const-tanh-lecun, none]
+activation:[sigmoid, tanh, relu, hard-sigmoid, ultra-fast-sigmoid, tanh-lecun, const-tanh-lecun, none]
+optimization-logistic:[SGD, ADAM]
+optimization-autoencoder:[SGD, ADAM]
+learning-pretrain:CNT
+learning-finetune:CNT
+output-directory:CNT
+pretrain-epochs:CNT
+train-epochs:CNT
+# Not implemented yet
+cache-pretrain-directory:CNT
+save_pretrain_new_representation: [True, False]
+save_train_new_representation: [True, False]
+save_valid_new_representation: [True, False]
+save_test_new_representation: [True, False]
+config-X:QUANTITY-N,LAYER-1,...,LAYER-N,CORRUPTION-1,...,CORRUPTION-N
+
+
+
+
+output-directory:CNT
+# Not implemented yet
+cache-pretrain-directory:CNT
+save_pretrain_new_representation: [True, False]
+save_train_new_representation: [True, False]
+save_valid_new_representation: [True, False]
+save_test_new_representation: [True, False]
+config-X:QUANTITY-N,LAYER-1,...,LAYER-N,CORRUPTION-1,...,CORRUPTION-N

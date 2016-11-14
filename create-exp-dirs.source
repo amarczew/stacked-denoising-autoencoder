@@ -1,0 +1,9 @@
+mkdir experiments 
+mkdir experiments/executionSettings
+mkdir experiments/logs
+mkdir experiments/new-representations
+mkdir experiments/predictions
+mkdir experiments/sda-params
+mkdir experiments/summaryFiles
+mkdir experiments/sda-params/params-pretrained
+mkdir experiments/sda-params/params-trained
