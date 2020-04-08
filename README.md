@@ -1,2 +1,3 @@
 # stacked-denoising-autoencoder
-A parametric SdA net
+
+_**A parametric SdA net - Code for research purpose**_
